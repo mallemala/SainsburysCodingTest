@@ -1,9 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package com.sainsbury.sainsburyhtmlscraper.gsonserializer;
+package com.sainsbury.sainsburyhtmlscraper.utils;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonPrimitive;
@@ -13,6 +8,8 @@ import java.lang.reflect.Type;
 import java.math.BigDecimal;
 
 /**
+ * Custom serializer to format double values to print two decimal values while
+ * building json string.
  *
  * @author Dinesh Mallemala
  */

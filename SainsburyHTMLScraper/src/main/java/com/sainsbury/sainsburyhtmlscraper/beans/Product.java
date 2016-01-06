@@ -1,13 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.sainsbury.sainsburyhtmlscraper.beans;
 
 import com.google.gson.annotations.SerializedName;
 
 /**
+ * Product Bean class
  *
  * @author Dinesh Mallemala
  */
@@ -55,6 +51,14 @@ public class Product {
 
     public void setProductDescription(String productDescription) {
         this.productDescription = productDescription;
+    }
+
+    public boolean equals(Product product) {
+
+        return this.productName.equals(product.productName)
+                && this.productDescription.equals(product.productDescription)
+                && this.htmlPageSize.equals(product.htmlPageSize)
+                && this.unitPrice.equals(product.unitPrice);
     }
 
 }
