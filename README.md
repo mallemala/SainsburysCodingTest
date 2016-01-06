@@ -1,7 +1,8 @@
 Sainsburys coding test
 
 #Compile 
-cd SainsburyHTMLScraper
+cd ./SainsburyHTMLScraper
+
 mvn clean install
 
 #Run project
