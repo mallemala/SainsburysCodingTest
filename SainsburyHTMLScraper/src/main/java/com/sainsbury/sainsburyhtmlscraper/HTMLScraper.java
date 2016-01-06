@@ -5,6 +5,9 @@
  */
 package com.sainsbury.sainsburyhtmlscraper;
 
+import com.sainsbury.sainsburyhtmlscraper.beans.Result;
+import com.sainsbury.sainsburyhtmlscraper.beans.Product;
+import com.sainsbury.sainsburyhtmlscraper.gsonserializer.CustomDoubleSerializer;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import java.io.IOException;

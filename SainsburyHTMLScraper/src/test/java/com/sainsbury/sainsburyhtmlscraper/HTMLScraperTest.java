@@ -5,6 +5,7 @@
  */
 package com.sainsbury.sainsburyhtmlscraper;
 
+import com.sainsbury.sainsburyhtmlscraper.beans.Product;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
